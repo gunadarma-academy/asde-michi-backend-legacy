@@ -1,0 +1,14 @@
+{
+  "sorry_you_cannot_edit_this_comment" : "Maaf, Anda tidak dapat mengedit jawaban/komentar ini.",
+  "your_comment_has_been_deleted" : "Jawaban/Komentar anda telah dihapus.",
+  "comment_" : "Jawaban/Komentar",
+  "delete_comment" : "Hapus Jawaban/Komentar",
+  "add_comment" : "Tambahkan Jawaban/Komentar",
+  "upvote" : "sundul",
+  "downvote" : "tenggelamkan",
+  "link" : "tautan",
+  "edit" : "edit",
+  "reply" : "balas",
+  "no_comments" : "Tidak ada jawaban/komentar.",
+  "please_sign_in_to_reply" : "Silahkan login untuk membalas"
+}

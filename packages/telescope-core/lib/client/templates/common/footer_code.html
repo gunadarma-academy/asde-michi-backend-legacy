@@ -1,0 +1,9 @@
+<template name="footer_code">
+  <div class="footer-code {{moduleClass}}">
+    {{#if footerCode}}
+      {{#markdown}}{{footerCode}}{{/markdown}}
+    {{else}}
+      <a href="https://github.com/gunadarma-academy/asde-michi" target="_blank">Powered by Michi</a>
+    {{/if}}
+  </div>
+</template>
