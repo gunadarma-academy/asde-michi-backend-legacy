@@ -1,33 +1,57 @@
-**IMPORTANT: [Nova](https://github.com/TelescopeJS/Telescope/tree/nova) is a new, React-based version of Telescope. Although it's still beta software, it is recommended you use it for any new projects going forward.**
+Arlin Backend/Fullstack with Telescope
+======================================
 
----
+Introduction
+------------
 
-Telescope is an open-source, real-time social news site built with [Meteor](http://meteor.com)
+> Full stack application for Arlin, with [Telescope](https://github.com/TelescopeJS/Telescope).
 
-**Note:** Telescope is beta software. Most of it should work but it's still a little unpolished and you'll probably find some bugs. Use at your own risk :)
+This application is using Node.js and npm. Please follow the getting started guide first. This particular app is using Meteor and its internal MongoDB.
 
-Note that Telescope is distributed under the [MIT License](http://opensource.org/licenses/MIT)
+The broader Technical Documentation that isn't concretely about only the application either the backend or frontend itself, is in the [parent repo (asde-michi)](https://github.com/gunadarma-academy/asde-michi#technical-documentation).
 
-### Getting Started
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 
-Note that while simply cloning this repository will work, it is recommended you clone the [sample project](https://github.com/TelescopeJS/sample-project/) repository instead for a simpler workflow.
+Getting Started
+---------------
 
-Please refer to [the documentation](http://telescope.readme.io/v0.20/docs/installing-telescope) for more instructions on installing Telescope.
+### Requirements
 
-### Learn More
++ Terminal and shell (bash or [zsh](http://www.zsh.org))
++ [Git](http://git-scm.com) v2.x
++ Modern code editor ([Vim](http://vim.org), [Atom](https://atom.io), [Sublime](https://sublimetext.com))
++ Modern web browser (Google Chrome or Firefox)
++ HTTP client app like [cURL](https://curl.haxx.se) or [Postman](https://getpostman.com)
++ [Node.js](http://nodejs.org) and [Meteor](http://meteor.com): JavaScript platform and a full stack framework, currently Node `v0.10.x` and Meteor `v1.3`.
++ [React.js](https://facebook.github.io/react) knowledge, a UI library.
++ No CSS framework here. Choose your own in the frontend you build.
 
-- [Homepage](http://telescopeapp.org)
-- [Demo](http://demo2.telescopeapp.org)
-- [Sample Project](https://github.com/TelescopeJS/sample-project/)
-- [Documentation](http://telescope.readme.io)
-- [Roadmap](https://trello.com/b/oLMMqjVL/telescope-roadmap)
-- [Slack](http://slack.telescopeapp.org/)
-- [Meta](http://meta.telescopeapp.org/) – Discussions about Telescope
+### Installation
 
-### Found Issues and How to Resolve Them
++ Install Node.js from your prefered way, or from <http://nodejs.org>
+  + It's also recommended to [use Node Version Manager (nvm)](https://github.com/creationix/nvm)
++ Install required npm packages/modules with `npm install` within this repo
++ Install pm2 globally (`npm install -g pm2`)
++ Install mupX globally (`npm install -g mupx`)
 
-Refer to these discussions:
+### Development
 
-- https://bitcointalk.org/index.php?topic=304389.0
-- https://github.com/arunoda/meteor-up/issues/929
-- https://github.com/meteor/meteor/issues/6655
++ Fork the repository
++ Create your feature branch (`git checkout -b feature-name`)
++ Make your changes with your editor (`vim` or `atom` or `sublime`)
++ Commit your changes (`git commit -a`)
++ Push to the branch (`git push origin feature-name`)
++ Create new Pull Request
+
+### Usage and Deployment
+
+Use `meteor --settings settings.json` to run the app. Access `http://{host}:{port}/{api_route}` or that already shown in the prompt to view.
+
+Use mupx (`npm install -g mupx`) to deploy based on `mup.json`. For smooth deployment, notice that you should have a proper access to the server. It's recommended to use SSH key that is already added/registered there. You might want to use `ssh-copy-id username@xx.xx.xx.xx` first.
+
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+
+License
+-------
+
+Arlin by Michi is Copyright (c) 2016 Michi Team and licenced under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the parent [LICENSE.markdown](https://github.com/gunadarma-academy/asde-michi/blob/master/LICENSE.markdown) file for more details.
